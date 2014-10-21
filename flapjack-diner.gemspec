@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Flapjack::Diner::VERSION
 
-  gem.add_dependency('httparty', '>= 0.10')
+  gem.add_dependency('httparty', '>= 0.8.3')
   gem.add_dependency('json', '>= 1.7.7')
 end
